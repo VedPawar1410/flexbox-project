@@ -40,3 +40,43 @@ li{
     font-size: 18px;
     color: #e5e7eb;
 }
+
+
+/* Content flex container */
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-family: Roboto;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.hero-text-title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.paragraph{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
