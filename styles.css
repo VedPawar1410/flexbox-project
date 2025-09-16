@@ -80,3 +80,40 @@ button{
     border: none;
     cursor: pointer;
 }
+
+/* Information-text Flex container */
+.information-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Title flex-item:flex-container */
+.title{
+    display: flex; /* Not needed */
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-family: Roboto;
+    margin: 60px;
+}
+/* Images flex-item:flex-container */
+.images{
+    display: flex;
+    /* max-width: 100%;
+    flex: 1; */
+    justify-content:flex-start;
+    gap: 30px;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover; /* makes sure aspect ratio is preserved and fills the box */
+    border-radius: 8px; /* optional, just makes them look nicer */
+}
+.images > div {
+    text-align: center;
+    margin: 0 10px; /* adds spacing between items */
+    width: 200px;
+}
