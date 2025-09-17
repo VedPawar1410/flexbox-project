@@ -117,3 +117,27 @@ button{
     margin: 0 10px; /* adds spacing between items */
     width: 200px;
 }
+
+/* Quote Flex Container */
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   /* centers vertically */
+    margin-top: 120px;
+    background-color: #e5e7eb;
+    text-align: justify;
+    align-items: center;
+}
+.quote-content{
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 800px;  /* limit width but allow responsiveness */
+    margin: 120px 120px 20px;
+}
+.author{
+    margin-bottom: 100px;
+    margin-left: 600px;
+    font-size: 20px;
+    font: Roboto;
+}
