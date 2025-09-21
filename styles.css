@@ -177,3 +177,14 @@ button{
     border: 2px solid white;
     cursor: pointer;
 }
+
+/* Footer flex container */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-family: Roboto;
+    padding: 35px 20px 35px;
+}
